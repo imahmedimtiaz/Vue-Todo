@@ -30852,10 +30852,10 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    _vm._l(_vm.items, function(item, index) {
+    _vm._l(_vm.items, function(item, id) {
       return _c(
         "div",
-        { key: index },
+        { key: id },
         [
           _c("list-item", {
             staticClass: "item",
